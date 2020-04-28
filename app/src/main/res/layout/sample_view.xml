@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    app:cardCornerRadius="3dp"
+    app:cardBackgroundColor="#ab172c41"
+
+
+
+    app:cardElevation="0dp"
+    android:clickable="true"
+    android:layout_margin="3dp"
+    android:foreground="?selectableItemBackground"
+
+
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:orientation="vertical"
+            android:background="#ab172c41"
+
+
+
+
+
+            >
+
+            <TextView
+
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Wed"
+                android:textSize="16sp"
+                android:textColor="#fefefe"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:padding="5dp"
+
+
+
+
+
+                />
+
+
+
+        ></LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:orientation="horizontal"
+
+
+
+
+
+
+        >
+            <LinearLayout
+
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+
+
+
+
+
+                >
+
+            <TextView
+
+                android:drawableLeft="@drawable/snowy"
+
+
+                android:id="@+id/sky"
+
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:text="  Clear Sky"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:textColor="#fefefe"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+
+
+
+
+
+
+                />
+            <TextView
+                android:drawableLeft="@drawable/wind"
+
+                android:id="@+id/wind"
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:text="  Wind"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:textColor="#fefefe"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+
+
+
+
+
+
+                />
+
+            <TextView
+                android:drawableLeft="@drawable/compressor"
+
+                android:id="@+id/pressure"
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:text="  Pressure"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:textColor="#fefefe"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+
+
+
+
+
+
+                />
+
+            <TextView
+                android:drawableLeft="@drawable/humidity"
+
+                android:id="@+id/humidity"
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:text="  Humidity"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:textColor="#fefefe"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+
+
+
+
+
+
+                />
+
+                ></LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="8dp"
+                android:gravity="center_horizontal"
+
+
+
+
+
+
+
+
+                >
+
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+
+
+
+                      >
+
+
+                      <ImageView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:src="@drawable/hot"
+                          android:layout_marginTop="11dp"
+
+
+
+
+                          />
+                <TextView
+
+
+
+                    android:id="@+id/current_temp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+
+                    android:gravity="center_horizontal"
+                    android:text=" 30C"
+                    android:textColor="#fefefe"
+
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+
+
+                    />
+
+
+                  </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ups"
+                        android:layout_marginTop="2.5dp"
+
+
+
+                        />
+
+
+                    <TextView
+
+                        android:id="@+id/high"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="30C"
+                        android:textColor="#e3edef"
+
+
+                        android:textSize="16sp"
+
+
+                        android:textStyle="bold"
+
+
+                        />
+
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/downs"
+                        android:layout_marginTop="2.7dp"
+
+                        android:layout_marginLeft="25dp"
+
+                        />
+
+
+
+                    <TextView
+
+                        android:id="@+id/low"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+
+
+                        android:text="30C"
+                        android:textColor="#dedede"
+
+                        android:textSize="16sp"
+
+
+                        android:textStyle="bold"
+
+
+                        />
+
+
+                    >
+                </LinearLayout>
+
+
+
+                ></LinearLayout>
+
+
+
+            ></LinearLayout>
+            ></LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
